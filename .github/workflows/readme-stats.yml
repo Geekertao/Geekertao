@@ -1,0 +1,33 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # 每 12 小时运行一次
+  workflow_dispatch:         # 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Stats
+        run: |
+          mkdir -p imgs
+          # 英文 + 浅色
+          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=default" -o imgs/stats-en-light.svg
+          # 英文 + 深色
+          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=dark" -o imgs/stats-en-dark.svg
+          # 中文 + 浅色
+          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=default" -o imgs/stats-cn-light.svg
+          # 中文 + 深色
+          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=dark" -o imgs/stats-cn-dark.svg
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add imgs/*.svg
+          git commit -m "Update stats (multi-language & theme)"
+          git push
