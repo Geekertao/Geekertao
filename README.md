@@ -4,6 +4,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Geekertao/Geekertao/output/github-contribution-grid-snake-Light.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Geekertao/Geekertao/output/github-contribution-grid-snake-Light.svg">
 </picture>
+
 ### 英文版
 ![GitHub Stats EN-Light](./imgs/stats-en-light.svg)
 ![GitHub Stats EN-Dark](./imgs/stats-en-dark.svg)
