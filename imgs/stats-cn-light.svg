@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Geekertao&#26497;&#23458;&#26691; &#30340; GitHub &#32479;&#35745;&#25968;&#25454;, Rank: B</title>
-        <desc id="descId">获标星数: 55, 累计提交总数  (去年) : 4199, 发起的 PR 总数: 2, 提出的 issue 总数: 11, 贡献的项目数（去年）: 11</desc>
+        <desc id="descId">获标星数: 55, 累计提交总数  (去年) : 4199, 发起的 PR 总数: 3, 提出的 issue 总数: 11, 贡献的项目数（去年）: 11</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 149.70975426642846;
+        stroke-dashoffset: 148.86838372355504;
       }
     }
   
@@ -180,7 +180,7 @@
         x="199.01"
         y="12.5"
         data-testid="prs"
-      >2</text>
+      >3</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
