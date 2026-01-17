@@ -1,6 +1,6 @@
 name: Update README Stats
 
-on:
+于:
   schedule:
     - cron: "0 0 1 * *"  # 每月1号的00:00 UTC执行
   workflow_dispatch:
@@ -21,10 +21,10 @@ jobs:
       - name: Generate Stats
         run: |
           mkdir -p imgs
-          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=default" -o imgs/stats-en-light.svg
-          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=dark"  -o imgs/stats-en-dark.svg
-          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=default" -o imgs/stats-cn-light.svg
-          curl "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=dark"  -o imgs/stats-cn-dark.svg
+          curl "https://lencx-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=default" -o imgs/stats-en-light.svg
+          curl "https://lencx-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=en&theme=dark"  -o imgs/stats-en-dark.svg
+          curl "https://lencx-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=default" -o imgs/stats-cn-light.svg
+          curl "https://lencx-stats.vercel.app/api?username=${{ github.repository_owner }}&locale=cn&theme=dark"  -o imgs/stats-cn-dark.svg
 
       - name: Commit and Push
         run: |
