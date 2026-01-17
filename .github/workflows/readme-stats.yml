@@ -1,6 +1,6 @@
 name: Update README Stats
 
-于:
+on:
   schedule:
     - cron: "0 0 1 * *"  # 每月1号的00:00 UTC执行
   workflow_dispatch:
