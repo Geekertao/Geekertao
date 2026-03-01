@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 94.2391037203588;
+        stroke-dashoffset: 94.1819758063822;
       }
     }
   
@@ -144,7 +144,7 @@
         x="170" 
         y="12.5" 
         data-testid="stars"
-      >74</text>
+      >83</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -166,7 +166,7 @@
         x="170" 
         y="12.5" 
         data-testid="prs"
-      >8</text>
+      >9</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="170" 
         y="12.5" 
         data-testid="issues"
-      >14</text>
+      >15</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -188,7 +188,7 @@
         x="170" 
         y="12.5" 
         data-testid="contribs"
-      >14</text>
+      >15</text>
     </g>
   </g>
     </svg> 
