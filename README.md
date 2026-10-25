@@ -1,6 +1,6 @@
 <div align="center">
 
-泥嚎！我是
+<h1>👋 泥嚎！我是 Geekertao</h1>
 
 <img src="./imgs/Geekertao_logo.png" alt="Geekertao Logo" width="160">
 
@@ -24,7 +24,7 @@
 
 </div>
 
-### 中文
+### 统计数据
 
 <div align="center">
 
